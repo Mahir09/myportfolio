@@ -9,6 +9,7 @@ function Type() {
           "Software Engineer",
           "Web Developer",
           "Flutter Developer",
+          "Blockchain Developer",
         ],
         autoStart: true,
         loop: true,

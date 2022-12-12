@@ -1,6 +1,7 @@
 import React from "react";
 import Card from "react-bootstrap/Card";
 import { ImPointRight } from "react-icons/im";
+import { ImPointDown } from "react-icons/im";
 
 function AboutCard() {
   return (
@@ -8,12 +9,11 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            Hi Everyone, I am{" "}
-            <span className="purple">Mohammad Mahir Shekh </span> but you can
-            call me <span className="purple"> Mahir </span>.
-            <br />I am from{" "}
-            <span className="purple"> Kathlal, Gujarat-India.</span>
-            <br />I am pursuing my B. Tech. in the field of{" "}
+            Hi Everyone, I am{" "} Mohammad Mahir Shekh but you can
+            call me <span className="purple"> Mahir. </span>
+            I am from{" "}
+            <span className="purple"> Kathlal,</span> Gujarat-India.
+            I am pursuing my Bachelor of Technology in the field of{" "}
             <span className="purple"> Information & Technology </span> at
             Charusat University, Changa.
             <br />
@@ -33,7 +33,14 @@ function AboutCard() {
             <li className="about-activity">
               <ImPointRight /> Watching Movies & Web Series
             </li>
+            <li className="about-activity">
+              <ImPointRight /> <span className="purple"> Poetry </span>
+            </li>
           </ul>
+
+          <p style={{ textAlign: "justify" }}>
+            Inspiration <ImPointDown />
+          </p>
 
           <p style={{ color: "rgb(155 126 172)" }}>
             " YOUR FUTURE IS CREATED BY WHAT YOU DO TODAY <span style={{ 'text-decoration': 'line-through' }}>NOT TOMORROW</span> "

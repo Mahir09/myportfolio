@@ -575,6 +575,17 @@ button:focus {
   overflow: hidden !important;
   border: 2.2px solid rgba(197, 115, 230, 0.883) !important;
 }
+
+/* .tech-icons-name {
+  color: #fff;
+  transform: scale(0);
+
+}
+
+.tech-icons-name:hover{
+  transform: scale(1);
+} */
+
 .tech-icon-images {
   padding: 20px !important;
   line-height: 1.6 !important;

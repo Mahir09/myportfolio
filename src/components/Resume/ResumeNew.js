@@ -11,7 +11,9 @@ pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/$
 const resumeLink = 
     // "E:/Study/Web Dev/NodeJs/Portfolio/myportfolio/src/Assets/Mahir_CV.pdf";
 
-  "https://mahir09.github.io/myportfolio/static/media/Mahir_CV.9757d38f94090eee3c3d.pdf";
+  "https://raw.githubusercontent.com/Mahir09/myportfolio/main/src/Assets/Mahir_CV.pdf";
+
+  // "https://mahir09.github.io/myportfolio/static/media/Mahir_CV.9757d38f94090eee3c3d.pdf";
 
 function ResumeNew() {
   const [width, setWidth] = useState(1200);

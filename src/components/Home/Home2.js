@@ -10,29 +10,28 @@ function Home2() {
         <Row>
           <Col md={8} className="home-about-description">
             <h1 style={{ fontSize: "2.6em" }}>
-              INDRODUCING <span className="purple"> MYSELF </span>
+              INTRODUCING <span className="purple"> MYSELF </span>
             </h1>
             <p className="home-about-body">
-              I just fell in love with programming and developing new thing that
+              Honesty, I like to develop new things that
               can reduce human efforts and saves time.
               <br />
               <br />
-              My field of Interest's are building new &nbsp;
+              My field of Interests are building new&nbsp;
               <i>
                 <b className="purple">
-                  Web Technologies and Products, Mobile Application Development{" "}
+                  Web Technologies & Products, Mobile Applications{" "}
                 </b>{" "}
-                and interested into{" "}
-                <b className="purple">Blockchain Development.</b>
+                as well as <b className="purple">Blockchain Development.</b>
               </i>
               <br />
               <br />
-              Somtimes i become Stubborn <b className="purple"> Stubborn </b>
+              Sometimes I become <b className="purple"> Stubborn </b>
               but this shows how dedicated I am to every decision I make and
               every task I encounter.
               <br />
               <br />
-              From this journey i have at least learnt something,
+              From this journey at least I have learned something,
               <i>
                 <b className="purple"> I think… </b>
               </i>

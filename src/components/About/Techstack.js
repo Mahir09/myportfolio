@@ -18,6 +18,7 @@ function Techstack() {
         <CgCPlusPlus />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
+        {/* <span className="tech-icons-name">Python</span> */}
         <DiPython />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
