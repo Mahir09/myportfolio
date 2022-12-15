@@ -5,8 +5,9 @@ import {
   SiVisualstudiocode,
   SiPostman,
   SiGithub,
-  SiKalilinux,
+  SiUbuntu,
 } from "react-icons/si";
+
 
 function Toolstack() {
   return (
@@ -24,8 +25,8 @@ function Toolstack() {
         <SiGithub />
       </Col>      
       <Col xs={4} md={2} className="tech-icons">
-        <SiKalilinux />
-      </Col>
+        <SiUbuntu />
+      </Col>      
     </Row>
   );
 }
