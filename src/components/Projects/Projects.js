@@ -11,6 +11,7 @@ import rideBooking from "../../Assets/Projects/rideBooking.png";
 import careZone from "../../Assets/Projects/careZone.jpg";
 import mmsERC20 from "../../Assets/Projects/mmsERC20.png";
 import eVoting from "../../Assets/Projects/eVoting.jpg";
+import stackoverflow from "../../Assets/Projects/stackoverflow.png";
 
 function Projects() {
   return (
@@ -23,6 +24,15 @@ function Projects() {
         <p style={{ color: "white" }}>Here are the projects I've worked on</p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
         <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={stackoverflow}
+              isBlog={false}
+              title="Stackoverflow Clone : MERN Stack"
+              description="I have build this clone by following one youtube playlist in which they have developed this application live using React, Node, MongoDB, and Redux technologies. I have used Redux as state management tool and Nodejs & Expressjs for backend. I have used MongoDB for storing data. Full stack StackOverflow Clone project is the must have build for beginner developer who wants to learn full stack project using MERN."
+              link="https://github.com/Mahir09/stackoverflow"
+            />
+          </Col>
+          <Col md={4} className="project-card">
             <ProjectCard
               imgPath={mmsERC20}
               isBlog={false}
