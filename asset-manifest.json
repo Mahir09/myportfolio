@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/myportfolio/static/css/main.fe52ef73.css",
-    "main.js": "/myportfolio/static/js/main.eb07f2c3.js",
+    "main.js": "/myportfolio/static/js/main.216aa7b4.js",
     "static/js/415.db68da8c.chunk.js": "/myportfolio/static/js/415.db68da8c.chunk.js",
     "static/js/787.1f11dfe9.chunk.js": "/myportfolio/static/js/787.1f11dfe9.chunk.js",
     "static/media/rideBooking.png": "/myportfolio/static/media/rideBooking.0707e148328f0088d104.png",
@@ -10,6 +10,7 @@
     "static/media/anomaly.png": "/myportfolio/static/media/anomaly.04012477021a4746d94f.png",
     "static/media/home-main.svg": "/myportfolio/static/media/home-main.359935c39288e92d4dba5c9f2445b91d.svg",
     "static/media/about.png": "/myportfolio/static/media/about.aee0f771fbfc1e7b8fa8.png",
+    "static/media/stackoverflow.png": "/myportfolio/static/media/stackoverflow.d51d9c728b7d69cb0bbc.png",
     "static/media/eventmanager.jpg": "/myportfolio/static/media/eventmanager.84d2d7b0f5ca6a3af7c1.jpg",
     "static/media/Mahir_CV.pdf": "/myportfolio/static/media/Mahir_CV.9d1a2e55864f758c47cb.pdf",
     "static/media/eVoting.jpg": "/myportfolio/static/media/eVoting.7a3612eca37181a35722.jpg",
@@ -21,12 +22,12 @@
     "static/media/pre.svg": "/myportfolio/static/media/pre.4410c5baaa673cc131da.svg",
     "index.html": "/myportfolio/index.html",
     "main.fe52ef73.css.map": "/myportfolio/static/css/main.fe52ef73.css.map",
-    "main.eb07f2c3.js.map": "/myportfolio/static/js/main.eb07f2c3.js.map",
+    "main.216aa7b4.js.map": "/myportfolio/static/js/main.216aa7b4.js.map",
     "415.db68da8c.chunk.js.map": "/myportfolio/static/js/415.db68da8c.chunk.js.map",
     "787.1f11dfe9.chunk.js.map": "/myportfolio/static/js/787.1f11dfe9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.fe52ef73.css",
-    "static/js/main.eb07f2c3.js"
+    "static/js/main.216aa7b4.js"
   ]
 }
