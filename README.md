@@ -2,9 +2,6 @@
   My Personal Portfolio<br/>
   <a href="https://mahir09.github.io/myportfolio/" target="_blank">Mahir Shekh</a>
 </h2>
-<div align="center">
-  <img alt="Demo" src="./Images/page1.png" />
-</div>
 
 <br/>
 
