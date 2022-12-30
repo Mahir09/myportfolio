@@ -42,7 +42,7 @@ function AboutCard() {
             Inspiration <ImPointDown />
           </p>
 
-          <p style={{ color: "rgb(155 126 172)" }}>
+          <p style={{ color: "rgba(49, 142, 136, 0.887)" }}>
             " YOUR FUTURE IS CREATED BY WHAT YOU DO TODAY <span style={{ 'text-decoration': 'line-through' }}>NOT TOMORROW</span> "
           </p>
 
