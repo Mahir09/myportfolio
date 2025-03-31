@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/myportfolio/static/css/main.3151e3fb.css",
-    "main.js": "/myportfolio/static/js/main.ea2af5d3.js",
+    "main.js": "/myportfolio/static/js/main.aa6960c4.js",
     "static/js/415.db68da8c.chunk.js": "/myportfolio/static/js/415.db68da8c.chunk.js",
     "static/js/787.1f11dfe9.chunk.js": "/myportfolio/static/js/787.1f11dfe9.chunk.js",
     "static/media/rideBooking.png": "/myportfolio/static/media/rideBooking.0707e148328f0088d104.png",
     "static/media/restaurant.png": "/myportfolio/static/media/restaurant.dbe6f3e9a209c8228805.png",
     "static/media/mmsERC20.png": "/myportfolio/static/media/mmsERC20.af21967d912f269f9f54.png",
+    "static/media/Mahir_CV.pdf": "/myportfolio/static/media/Mahir_CV.16c0bf3b7ce9aca7a2fb.pdf",
     "static/media/anomaly.png": "/myportfolio/static/media/anomaly.04012477021a4746d94f.png",
     "static/media/stackoverflow.png": "/myportfolio/static/media/stackoverflow.d51d9c728b7d69cb0bbc.png",
     "static/media/eventmanager.jpg": "/myportfolio/static/media/eventmanager.84d2d7b0f5ca6a3af7c1.jpg",
-    "static/media/Mahir_CV.pdf": "/myportfolio/static/media/Mahir_CV.9d1a2e55864f758c47cb.pdf",
     "static/media/eVoting.jpg": "/myportfolio/static/media/eVoting.7a3612eca37181a35722.jpg",
     "static/media/letsTalk.png": "/myportfolio/static/media/letsTalk.bb17e760cdbff84dadeb.png",
     "static/media/careZone.jpg": "/myportfolio/static/media/careZone.48d559be0978e2b74a16.jpg",
@@ -22,12 +22,12 @@
     "static/media/pre.svg": "/myportfolio/static/media/pre.9e0f67fe84b290f2df47.svg",
     "index.html": "/myportfolio/index.html",
     "main.3151e3fb.css.map": "/myportfolio/static/css/main.3151e3fb.css.map",
-    "main.ea2af5d3.js.map": "/myportfolio/static/js/main.ea2af5d3.js.map",
+    "main.aa6960c4.js.map": "/myportfolio/static/js/main.aa6960c4.js.map",
     "415.db68da8c.chunk.js.map": "/myportfolio/static/js/415.db68da8c.chunk.js.map",
     "787.1f11dfe9.chunk.js.map": "/myportfolio/static/js/787.1f11dfe9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.3151e3fb.css",
-    "static/js/main.ea2af5d3.js"
+    "static/js/main.aa6960c4.js"
   ]
 }
