@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/myportfolio/static/css/main.3151e3fb.css",
-    "main.js": "/myportfolio/static/js/main.aa6960c4.js",
+    "main.js": "/myportfolio/static/js/main.d58014ad.js",
     "static/js/415.db68da8c.chunk.js": "/myportfolio/static/js/415.db68da8c.chunk.js",
     "static/js/787.1f11dfe9.chunk.js": "/myportfolio/static/js/787.1f11dfe9.chunk.js",
     "static/media/rideBooking.png": "/myportfolio/static/media/rideBooking.0707e148328f0088d104.png",
@@ -22,12 +22,12 @@
     "static/media/pre.svg": "/myportfolio/static/media/pre.9e0f67fe84b290f2df47.svg",
     "index.html": "/myportfolio/index.html",
     "main.3151e3fb.css.map": "/myportfolio/static/css/main.3151e3fb.css.map",
-    "main.aa6960c4.js.map": "/myportfolio/static/js/main.aa6960c4.js.map",
+    "main.d58014ad.js.map": "/myportfolio/static/js/main.d58014ad.js.map",
     "415.db68da8c.chunk.js.map": "/myportfolio/static/js/415.db68da8c.chunk.js.map",
     "787.1f11dfe9.chunk.js.map": "/myportfolio/static/js/787.1f11dfe9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.3151e3fb.css",
-    "static/js/main.aa6960c4.js"
+    "static/js/main.d58014ad.js"
   ]
 }
