@@ -8,15 +8,11 @@ import { Document, Page, pdfjs } from "react-pdf";
 import "react-pdf/dist/esm/Page/AnnotationLayer.css";
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
 
-const resumeLink = 
-    // "C:/MAHIR/Study/Web Dev/NodeJs/Portfolio/myportfolio/src/Assets/Mahir_CV.pdf";
-
-  "https://raw.githubusercontent.com/Mahir09/myportfolio/main/src/Assets/Mahir_CV.pdf";
-
-  // "https://mahir09.github.io/myportfolio/static/media/Mahir_CV.9757d38f94090eee3c3d.pdf";
+const resumeLink = "https://raw.githubusercontent.com/Mahir09/myportfolio/main/src/Assets/Mahir_CV.pdf";
 
 function ResumeNew() {
   const [width, setWidth] = useState(1200);
+  const [numPages, setNumPages] = useState(null);
 
   useEffect(() => {
     setWidth(window.innerWidth);
@@ -27,30 +23,26 @@ function ResumeNew() {
       <Container fluid className="resume-section">
         <Particle />
         <Row style={{ justifyContent: "center", position: "relative" }}>
-          <Button
-            variant="primary"
-            href={pdf}
-            target="_blank"
-            style={{ maxWidth: "250px" }}
-          >
+          <Button variant="primary" href={pdf} target="_blank" style={{ maxWidth: "250px" }}>
             <AiOutlineDownload />
             &nbsp;Download CV
           </Button>
         </Row>
 
         <Row className="resume">
-          <Document file={resumeLink} className="d-flex justify-content-center">
-            <Page pageNumber={1} scale={width > 786 ? 1.7 : 0.6} />
+          <Document 
+            file={resumeLink} 
+            className="d-flex justify-content-center"
+            onLoadSuccess={({ numPages }) => setNumPages(numPages)} // Set total pages
+          >
+            {[...Array(numPages).keys()].map((pageIndex) => (
+              <Page key={pageIndex} pageNumber={pageIndex + 1} scale={width > 786 ? 1.7 : 0.6} />
+            ))}
           </Document>
         </Row>
 
         <Row style={{ justifyContent: "center", position: "relative" }}>
-          <Button
-            variant="primary"
-            href={pdf}
-            target="_blank"
-            style={{ maxWidth: "250px" }}
-          >
+          <Button variant="primary" href={pdf} target="_blank" style={{ maxWidth: "250px" }}>
             <AiOutlineDownload />
             &nbsp;Download CV
           </Button>
