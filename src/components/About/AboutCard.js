@@ -9,13 +9,23 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            Hi Everyone, I am{" "} Mohammad Mahir Shekh but you can
-            call me <span className="purple"> Mahir. </span>
-            I am from{" "}
-            <span className="purple"> Kathlal,</span> Gujarat-India.
-            I am pursuing my Bachelor of Technology in the field of{" "}
-            <span className="purple"> Information & Technology </span> at
+            Hi everyone! I am Mohammad Mahir Shekh but you can call me{" "}
+            <span className="purple"> Mahir. </span>
+            I’m pursuing my postgraduate studies in{" "}
+            <span className="purple"> Cloud Computing Technologies</span> at
+            George Brown College, Toronto, Canada, after completing my Bachelor
+            of Technology in{" "}
+            <span className="purple"> Information Technology </span> from
             Charusat University, Changa.
+            <br />
+            <br />I have a strong passion for{" "}
+            <span className="purple">
+              {" "}
+              cloud computing, DevOps, and software testing
+            </span>{" "}
+            with hands-on experience in AWS, GCP, CI/CD, and automation. My goal
+            is to design and implement scalable, secure, and efficient cloud
+            solutions while continuously improving system performance.
             <br />
             <br />
             Apart from coding, some other activities that I love to do!
@@ -43,9 +53,12 @@ function AboutCard() {
           </p>
 
           <p style={{ color: "rgba(49, 142, 136, 0.887)" }}>
-            " YOUR FUTURE IS CREATED BY WHAT YOU DO TODAY <span style={{ 'text-decoration': 'line-through' }}>NOT TOMORROW</span> "
+            " YOUR FUTURE IS CREATED BY WHAT YOU DO TODAY{" "}
+            <span style={{ "text-decoration": "line-through" }}>
+              NOT TOMORROW
+            </span>{" "}
+            "
           </p>
-
         </blockquote>
       </Card.Body>
     </Card>

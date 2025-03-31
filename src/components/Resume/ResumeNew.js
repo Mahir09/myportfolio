@@ -9,7 +9,7 @@ import "react-pdf/dist/esm/Page/AnnotationLayer.css";
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
 
 const resumeLink = 
-    // "E:/Study/Web Dev/NodeJs/Portfolio/myportfolio/src/Assets/Mahir_CV.pdf";
+    // "C:/MAHIR/Study/Web Dev/NodeJs/Portfolio/myportfolio/src/Assets/Mahir_CV.pdf";
 
   "https://raw.githubusercontent.com/Mahir09/myportfolio/main/src/Assets/Mahir_CV.pdf";
 
